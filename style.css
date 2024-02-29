@@ -216,7 +216,7 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container{
-    display: flex;
+    display:grid;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -226,7 +226,7 @@ header .navbar ul li a:hover{
 
 .education .box-container .box{
     width: 27rem;
-    margin: 4rem 1rem;
+    margin: 7rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
@@ -402,8 +402,12 @@ header .navbar ul li a:hover{
         width: 100%;
     }
 
+    /* .education .box-container .box{
+        width: 100%;
+    } */
     .education .box-container .box{
         width: 100%;
+        height: auto;
     }
 
     .portfolio .box-container .box{
